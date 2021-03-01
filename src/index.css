@@ -1,0 +1,35 @@
+.new{
+	width: 500px;
+	height: 400px;
+	background: yellow;
+	position: absolute;
+}
+.bb{
+	position: absolute;
+	left: 50%;
+	top: 10%;
+	background: red;
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+}
+
+.b{
+	position: absolute;
+	left: 5%;
+	top: 10%;
+	background: green;
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+}
+
+.bc{
+	position: absolute;
+	left: 5%;
+	top: 10%;
+	background: blue;
+	width: 10px;
+	height: 10px;
+	border-radius: 50%;
+}
