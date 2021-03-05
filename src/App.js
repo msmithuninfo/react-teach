@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import './App.css';
 import FunctionalComponent from './components/FunctionalComponent';
 import ClassComponent from './components/ClassComponent'
@@ -17,6 +17,7 @@ import SetStateChangeStateValue from './components/SetStateChangeStateValue';
 import Condition1 from './components/Condition1';
 import ConditionalReturnVariableElements from './components/ConditionalReturnVariableElements';
 import ForceUpdateToUpdateReactComponent from './components/ForceUpdateToUpdateReactComponent';
+import FragmentTutorial from './components/FragmentTutorial';
 import ReactRender from './ReactDOM/ReactRender';
 import FindDOMNode from './ReactDOM/FindDOMNode';
 import SingleInputField from './inputFields/SingleInputField';
@@ -29,6 +30,16 @@ import TextArea from './inputFields/TextArea';
 import SelectOptionDropdownList from './inputFields/SelectOptionDropdownList';
 import ReactLists from './inputFields/ReactLists';
 import ReactListFromJSONArray from './inputFields/ReactListFromJSONArray';
+import CountryList from './httpRequestServer/CountryList';
+import Post from './httpRequestServer/Post';
+import MyTable from './reactTable/MyTable';
+import HelloWorld from './reactBootstrap/HelloWorld';
+import Son from './componentTree/Son';
+import Son1 from './ReactContext/Son1';
+import {DadaProvider} from './ReactContext/MyContext';
+
+
+
 
 
 
@@ -37,7 +48,7 @@ function App() {
   return (
     <div className="App">
 	   {/* start components */}
-      <FunctionalComponent />
+      {/* <FunctionalComponent />
 	  <ClassComponent />
 	  
 	  <PropsFuncComp name="Mithun" />
@@ -64,17 +75,18 @@ function App() {
 
 	  <Condition1 />
 	  <ConditionalReturnVariableElements />
-	  <ForceUpdateToUpdateReactComponent />
+	  <ForceUpdateToUpdateReactComponent /> */}
+	  {/* <FragmentTutorial /> */}
 	  {/* end componets */}
 	  {/* Start DOM */}
-	<ReactRender />
-	<FindDOMNode />
+	{/* <ReactRender />
+	<FindDOMNode /> */}
 
 
 
 	  {/* End DOM */}
 	  {/* Start Input Fields */}
-		<SingleInputField />
+		{/* <SingleInputField />
 		<EventHandlerInTheOnChange />
 		<EventHandlerInTheOnChangeUsingNameAttribute />
 		<OnSubmitHandler />
@@ -83,8 +95,26 @@ function App() {
 		<TextArea />
 		<SelectOptionDropdownList />
 		<ReactLists />
-		<ReactListFromJSONArray />
+		<ReactListFromJSONArray /> */}
 		{/* End Input Fields */}
+
+		{/* HTTP REQUEST SERVER */}
+		{/* <CountryList /> */}
+		{/* <Post /> */}
+
+		{/* React table */}
+		{/* <MyTable />  Not work version 7*/}
+		{/* ReactBootstrap */}
+		{/* <HelloWorld /> */}
+
+		{/* Component Tree */}
+		{/* <Son name="Puti Name is Salam" /> */}
+
+		{/* React context */}
+		{/* <DadaProvider value="Dada Send sms to Puti">
+		<Son1 />
+		</DadaProvider> */}
+		
     </div>
   );
 }
